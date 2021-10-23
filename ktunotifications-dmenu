@@ -5,5 +5,6 @@ done
 
  id=$(curl http://ktu.amith.ninja/ |jq '.' |jq -r '.notifications[]| "\(.title) ===> \(.links[].url)"' | dmenu -l 10 | awk '{print $NF}' )
 [ -z "$id" ]  && exit 1
+wget -O /tmp/ktu-notification.pdf "$id"
 notify-send "📥 Opening Notification"
-zathura $id
+zathura /tmp/ktu-notification.pdf
