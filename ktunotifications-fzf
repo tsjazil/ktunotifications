@@ -1,0 +1,9 @@
+#!/bin/bash
+for apps in dmenu jq zathura notify-send; do
+	[ ! "$(which "$apps")" ] && echo "Please install $apps!" && exit 1
+done
+
+ id=$(curl http://ktu.amith.ninja/ |jq '.' |jq -r '.notifications[]| "\(.title)  \(.links[].url)"'| fzf --with-nth='1..-2' +m | awk '{print $NF}' )
+[ -z "$id" ]  && exit 1
+notify-send "📥 Opening Notification"
+zathura $id
