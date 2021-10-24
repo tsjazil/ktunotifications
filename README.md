@@ -1,4 +1,4 @@
-# ktunotifications-cli
+# ktunotifications
 Script to view Notifications of KTU using dmenu & fzf 
 
 📎 Requirements
