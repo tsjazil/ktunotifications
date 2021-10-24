@@ -13,7 +13,7 @@ Script to view Notifications of KTU using dmenu & fzf
 --
 For installation type
 ```sh
-wget -O https://raw.githubusercontent.com/tsjazil/ktunotifications/main/install.sh
+wget https://raw.githubusercontent.com/tsjazil/ktunotifications/main/install.sh
 ```
 Then 
 ```sh
