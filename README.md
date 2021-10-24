@@ -8,6 +8,7 @@ Script to view Notifications of KTU using dmenu & fzf
 - jq
 - wget
 - zathura (pdf viewer)
+
 🚀 installation 
 --
 For installation type
