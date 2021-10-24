@@ -1,5 +1,5 @@
 #!/bin/bash
-for apps in dmenu jq zathura notify-send; do
+for apps in dmenu jq zathura notify-send wget; do
 	[ ! "$(which "$apps")" ] && echo "Please install $apps!" && exit 1
 done
 
