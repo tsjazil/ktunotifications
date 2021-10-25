@@ -1,5 +1,5 @@
 # ktunotifications
-Script to view Notifications of KTU using dmenu & fzf 
+Simple Script to view Notifications of KTU using dmenu & fzf 
 
 📎 Requirements
 --
