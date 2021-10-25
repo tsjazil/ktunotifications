@@ -19,4 +19,4 @@ chmod +x install.sh && ./install.sh
 ```
 Credits
 --
-Api is taken from [@amith-vp](https://github.com/amith-vp/ktunotificationapi)
+Api is taken from [Amith-vp](https://github.com/amith-vp/ktunotificationapi)
