@@ -7,7 +7,5 @@ sudo wget -q -O /usr/local/bin/ktunotif-fzf https://raw.githubusercontent.com/ts
 cd /usr/local/bin
 sudo chmod +x ktunotif-fzf 
 sudo chmod +x ktunotif-dmenu
-printf'\n'
-echo Installed
-printf'\n'
+
 
