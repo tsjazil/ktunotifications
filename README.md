@@ -1,5 +1,5 @@
 # ktunotifications
-Simple Script to view Notifications of KTU using dmenu & fzf 
+Simple Script to view Notifications of KTU using dmenu & fzf
 
 📎 Requirements
 --
@@ -7,16 +7,22 @@ Simple Script to view Notifications of KTU using dmenu & fzf
 - jq
 - zathura (pdf viewer)
 
-🚀 installation 
+🚀 installation
 --
-For installation 
+For installation
 ```sh
 wget https://raw.githubusercontent.com/tsjazil/ktunotifications/main/install.sh
 ```
-Then 
+Then
 ```sh
 chmod +x install.sh && ./install.sh
 ```
+🌪️ Working
+__
+
+If you have `fzf` type `ktunotif-fzf` in your terminal and  select the notification
+In case you have `dmenu` type `ktunotif-dmenu` in your terminal or select from `dmenu` and  select the notification
+
 Credits
 --
 Api is taken from [Amith-vp](https://github.com/amith-vp/ktunotificationapi)
