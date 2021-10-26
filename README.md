@@ -17,7 +17,7 @@ Then
 ```sh
 chmod +x install.sh && ./install.sh
 ```
-🌪️ Working
+🌀 Working
 --
 
 If you have `fzf` type `ktunotif-fzf` in your terminal and  select the notification
