@@ -28,3 +28,6 @@ In case you have `dmenu` type `ktunotif-dmenu` in your terminal or select from `
 Credits
 --
 Api is taken from [Amith-vp](https://github.com/amith-vp/ktunotificationapi)
+
+
+NB : KTU is Kerala Technological University 
