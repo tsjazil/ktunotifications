@@ -30,4 +30,5 @@ Credits
 Api is taken from [Amith-vp](https://github.com/amith-vp/ktunotificationapi)
 
 
-NB : KTU is Kerala Technological University 
+NB : KTU is [Kerala Technological University](https://ktu.edu.in/home.htm;jsessionid=39F74D677D9ECC35FF37ECA2641775D7) under which i persue Btech
+
