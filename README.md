@@ -1,5 +1,5 @@
 # ktunotifications
-Simple Script to view Notifications of KTU using dmenu & fzf
+Simple Script to view Notifications of KTU ([ APJ Abdul Kalam Technological University ](https://ktu.edu.in/home.htm;jsessionid=39F74D677D9ECC35FF37ECA2641775D7)) using dmenu & fzf
 
 📎 Requirements
 --
@@ -28,7 +28,4 @@ In case you have `dmenu` type `ktunotif-dmenu` in your terminal or select from `
 Credits
 --
 Api is taken from [Amith-vp](https://github.com/amith-vp/ktunotificationapi)
-
-
-NB : KTU is [APJ Abdul Kalam Technological University](https://ktu.edu.in/home.htm;jsessionid=39F74D677D9ECC35FF37ECA2641775D7) under which i persue Btech
 
