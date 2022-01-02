@@ -1,5 +1,10 @@
-# ktunotifications
+<!--# ktunotifications
 Simple Script to view Notifications of KTU ([ APJ Abdul Kalam Technological University ](https://ktu.edu.in/home.htm;jsessionid=39F74D677D9ECC35FF37ECA2641775D7)) using dmenu & fzf
+-->
+<h1 align="center">ktunotifications</h1>
+<p align="center">Simple Script to view Notifications of KTU <a href ="https://ktu.edu.in/home.htm;jsessionid=39F74D677D9ECC35FF37ECA2641775D7">APJ Abdul Kalam Technological University </a>using dmenu & fzf</p>
+
+##
 
 📎 Requirements
 --
