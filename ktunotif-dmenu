@@ -7,7 +7,7 @@ for apps in dmenu jq zathura notify-send wget; do
 done
 
 #Displaying Notifications
- id=$(curl http://ktu.amith.ninja/ |jq '.' |jq -r '.notifications[]| "\(.title) ===> \(.links[].url)"' | dmenu -l 10 | awk '{print $NF}' )
+ id=$(curl http://ktu.amith.ninja/ |jq '.' |jq -r '.notifications[]| "\(.title) ===> \(.links[].url)"' | dmenu -l 10 | awk '{print $(NF-1),"\t",$NF}' )
 [ -z "$id" ]  && exit 1
 
 #Downloading Notification
