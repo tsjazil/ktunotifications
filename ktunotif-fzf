@@ -8,7 +8,7 @@ done
 
 
 #Displaying Notifications
- id=$(curl http://ktu.amith.ninja/ |jq '.' |jq -r '.notifications[]| "\(.title)  \(.links[].url)"'| fzf --with-nth='1..-2' +m | awk '{print $NF}' )
+ id=$(curl http://ktu.amith.ninja/ |jq '.' |jq -r '.notifications[]| "\(.title)  \(.links[].url)"'| fzf --with-nth='1..-2' +m | awk '{print $(NF-1),"\t",$NF}' )
 [ -z "$id" ]  && exit 1
 
 #Downloading Notification
